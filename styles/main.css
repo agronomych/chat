@@ -3,6 +3,10 @@ html, button, section {
     margin: 0;
 }
 
+textarea {
+    outline: none;
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -20,6 +24,9 @@ body {
     height: 80vh;
     margin: 1vh 2vw;
     background-color:#383838;
+    color:azure;
+    overflow: auto;
+    white-space: wrap;
 }
 
 #message {
@@ -34,7 +41,6 @@ body {
 
 #send-button {
     margin-left: 2vw;
-    margin-right: 4vw;
     width: 80px;
 }
 
@@ -45,10 +51,15 @@ textarea {
     margin: 1vh 2vw;
     background-color: #383838;
     color: #D7D5D5;
+    overflow: auto;
+}
+
+#name-input {
+    margin-left: 1vw;
 }
 
 #name {
-    margin-left: 1vw;
+    margin: 0 1vw;
 }
 
 #change-name {
