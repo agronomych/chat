@@ -3,7 +3,7 @@ function sendMessage() {
     var name = document.getElementById('name');
     if (!message.value) return;
     var chat = document.getElementById('chat');
-    var text = '<p><strong>' + name.value+'</strong>: '+message.value+'</p>';
+    var text = '<p><strong>' + name.innerHTML+'</strong>: '+message.value+'</p>';
     chat.innerHTML = text+chat.innerHTML;
     message.value = '';
     message.focus();

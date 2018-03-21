@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "First chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agronomych/chat.git"
+  },
+  "author": "Agronomych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agronomych/chat/issues"
+  },
+  "homepage": "https://github.com/agronomych/chat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "log4js": "^2.5.3",
+    "socket.io": "^2.0.4"
+  }
+}
